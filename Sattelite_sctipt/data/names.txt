@@ -1,0 +1,1 @@
+NX NY NTIME NPIXELS TIMESTAMP HOBS NSURF IFGAS IX IY cloudy irow icol x_coord_longitude y_coord_latitude MASL land_percent nwave_lengths wave_length(IW) num_meas_type(IW) meas_type(IP,IW) nvalid_meas(IP,IW) sza(IW) thetav(IV,IP,IW) phi(IV,IP,IW) FPSW(IV,IP,IW) groundpar(IBRF,IW) gaspar(IW) IFCOV(IP,IW) CMTRX(IV,IP,IW) IFMP(IP,IW) MPROF(IV,IP,IW) 
