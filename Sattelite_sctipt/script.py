@@ -1,5 +1,5 @@
 from data_reader import DataReader as Dr
-
+from pprint import pprint
 
 
 class Constructor:
@@ -8,16 +8,19 @@ class Constructor:
     def __init__(self):
         self.description = Dr.get_description()
         self.names = Dr.get_names()
-        self.make_zeros_values_dict()
+        self.__make_zeros_values_dict()
 
-    def make_zeros_values_dict(self):
+    def __make_zeros_values_dict(self):
         for name in self.names:
             self.values_dict[name] = 0
 
+    def print_sort_desc(self):
+        for name in self.names:
+            print(name,':', self.description[name])
 
 total = Constructor()
 print(total.values_dict)
-
+total.print_sort_desc()
 
 # top_dict['NX'] = 1  # кількість пікселів по координаті X (довгота)
 # top_dict['NY'] = 1  # кількість пікселів по координаті Y (широта)
